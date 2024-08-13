@@ -6,5 +6,6 @@ elif(n<0):
 else:
     print("Number is zero")
 
+
 #output:-
  Negative number
