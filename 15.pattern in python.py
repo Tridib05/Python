@@ -66,7 +66,7 @@ for i in range(0,5):
 for i in range(1,5):
    for k in range(1,i*2):
         print(i,end="")
-   print(" ")
+   print()
 
 #Output:-
 1
