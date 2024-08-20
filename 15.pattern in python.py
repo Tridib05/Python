@@ -24,7 +24,7 @@ for i in range(1,a):
 3 3 3 3 
 4 4 4 4 
 
-//print vertica;l line 1-4
+//print vertical line 1-4
 a=5
 for i in range(1,a):
     for j in range(1,a):
@@ -114,7 +114,68 @@ for i in range(1,5):
   * * 
  * * * 
 * * * * 
+
+//reverse pyramid using "*"
+for i in range(1,5):
+    for j in range(1,i):
+        print(end=" ")
+    for k in range(1,6-i):
+        print("*",end="")
+    print() 
+
+#Output:-
+****
+ ***
+  **
+   *
+
+//print "X" pattern
+for i in range(1,6):
+    for j in range(1,6):
+        if(i==j or j==6-i):
+            print("*",end="")
+        else:
+            print(end=" ")
+    print()            
+
+#Output:-
+*   *
+ * * 
+  *  
+ * * 
+*   *
+
+//print "M" pattern
+for i in range(1,5):
+    for j in range(1,8):
+        if(i==j or j==1 or j==7 or i+j==8):
+            print("*",end="")
+        else:
+            print(end=" ")    
+    print()
+
+#Output:-
+*     *
+**   **
+* * * *
+*  *  *
+
+//print 1 to 8 but skipped 5
+for i in range(1,9):
+    if i==5:
+        continue
+    print(i)
+
+#Output:-
+1
+2
+3
+4
+6
+7
+8
      
+    
 
 
 
