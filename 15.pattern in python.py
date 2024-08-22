@@ -1,4 +1,4 @@
-//square pattern using "*"
+#square pattern using "*"
 a = 4
 for i in range(a):
     for j in range(a):
@@ -11,7 +11,7 @@ for i in range(a):
 * * * * 
 * * * * 
 
-//print horizontal line 1-4
+#print horizontal line 1-4
 a=5
 for i in range(1,a):
     for j in range(1,a):
@@ -37,7 +37,7 @@ for i in range(1,a):
 1 2 3 4 
 1 2 3 4 
 
-//print pyramid pattern using number
+#print pyramid pattern using number
 for i in range(1,5):
    for k in range(1,i+1):
         print(i,end="")
@@ -49,7 +49,7 @@ for i in range(1,5):
 333 
 4444
 
-//print pyramid pattern using "*"
+#print pyramid pattern using "*"
 for i in range(0,5):
     for j in range(0,i+1):
         print("*", end=" ")
@@ -62,7 +62,7 @@ for i in range(0,5):
 * * * * 
 * * * * * 
 
-//print a pyramid whose second line is double printed using number
+#print a pyramid whose second line is double printed using number
 for i in range(1,5):
    for k in range(1,i*2):
         print(i,end="")
@@ -74,7 +74,7 @@ for i in range(1,5):
 33333
 4444444
 
-//print a pyramid whose second line is double printed using "*"
+#print a pyramid whose second line is double printed using "*"
 k=1
 for i in range(0,3):
     for j in range(1,k+1):
@@ -87,7 +87,7 @@ for i in range(0,3):
 * * * 
 * * * * * 
 
-//print a right angled triangle pattern using "*"
+#print a right angled triangle pattern using "*"
 for i in range(1,5):
     for j in range(1,5-i):
         print(end=" ")
@@ -101,7 +101,7 @@ for i in range(1,5):
  ***
 ****
 
-//full pyramid patterns using "*"
+#full pyramid patterns using "*"
 for i in range(1,5):
     for j in range(1,5-i):
         print(end=" ")
@@ -115,7 +115,7 @@ for i in range(1,5):
  * * * 
 * * * * 
 
-//reverse pyramid using "*"
+#reverse pyramid using "*"
 for i in range(1,5):
     for j in range(1,i):
         print(end=" ")
@@ -129,7 +129,7 @@ for i in range(1,5):
   **
    *
 
-//print "X" pattern
+#print "X" pattern
 for i in range(1,6):
     for j in range(1,6):
         if(i==j or j==6-i):
@@ -145,7 +145,7 @@ for i in range(1,6):
  * * 
 *   *
 
-//print "M" pattern
+#print "M" pattern
 for i in range(1,5):
     for j in range(1,8):
         if(i==j or j==1 or j==7 or i+j==8):
@@ -160,7 +160,7 @@ for i in range(1,5):
 * * * *
 *  *  *
 
-//print 1 to 8 but skipped 5
+#print 1 to 8 but skipped 5
 for i in range(1,9):
     if i==5:
         continue
