@@ -1,4 +1,4 @@
-//arithmrtic operator
+#arithmrtic operator
 a=int(input("Enter num1:"))
 b=int(input("Enter num2:"))
 c=a+b
@@ -17,7 +17,7 @@ j=a//b
 print(j)
 
 
-//comparision operator
+#comparision operator
 a=float(input("Enter num1:"))
 b=float(input("Enter num2:"))
 c=a>b
@@ -34,7 +34,7 @@ i=a<=b
 print(i)
 
 
-//assignment operator
+#assignment operator
 a,b=10,5
 a+=b
 print(a)                    # 15
