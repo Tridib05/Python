@@ -1,4 +1,4 @@
-//using max()
+#using max()
 maximum = 10
 
 for number in range(0, maximum + 1):
@@ -14,7 +14,7 @@ for number in range(0, maximum + 1):
 8
 10
 
-//using for loop
+#using for loop
 for i in range(0, 11, 2):
   print(i)
 
