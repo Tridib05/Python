@@ -1,4 +1,4 @@
-//string slicing
+#string slicing
 S1="Learning python"
 print(S1[5:11:2])
 print(S1[::])
@@ -14,7 +14,7 @@ nohtyp gni
 nhy nnaL
 
 
-//string concatenate
+#string concatenate
 S1 = "Hello"
 S2 = "Global"
 C=S1+S2
