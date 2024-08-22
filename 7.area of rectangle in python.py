@@ -1,12 +1,12 @@
-# default input to the variables
+#default input to the variables
 width = 4
 height = 5
 
-#  using the formula to calculate the Area
+#using the formula to calculate the Area
 Area = width * height
 
-# after calculating, simple print it in string
+#after calculating, simple print it in string
 print("Area of rectangle = ",Area)  
 
-#output:-
+#Output:-
 Area of rectangle =  20
