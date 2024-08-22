@@ -23,3 +23,4 @@ c=45
 d=67
 print(c,end=" ")
 print(d)               # 45  67
+
