@@ -10,5 +10,5 @@ else:
 
     
 
-#output:-
+#Output:-
 The largest number is: 14
