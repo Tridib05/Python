@@ -7,5 +7,5 @@ else:
     print("Number is zero")
 
 
-#output:-
+#Output:-
  Negative number
