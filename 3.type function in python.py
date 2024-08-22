@@ -7,6 +7,8 @@ print(type(c))                  <class 'int'>
 
 
 
+
+
 d = "Hello World"          
 e = 10.23
 f = 11
