@@ -5,3 +5,11 @@ for i in range(0,6):
         else:
             print(" ",end=" ")
     print()            
+
+#Output:
+  * *   * * 
+*     *     * 
+*           * 
+  *       *   
+    *   *     
+      *     
