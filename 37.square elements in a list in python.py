@@ -7,7 +7,6 @@ print(li)
 [1, 4, 9, 16, 25]
 
 
-
 #using append
 li1=[1,2,3,4,5]
 li2=[]
@@ -21,12 +20,19 @@ print(li2)
 
 
 
-
 #using enumerate
 li=[1,2,3,4,5]
 for i,v in enumerate(li):
     li[i]=v**2
 print(li)    
+
+#Output:
+[1, 4, 9, 16, 25]
+
+
+#using map function
+l1=[1,2,3,4,5]
+print(list(map(lambda a:a*a,li)))
 
 #Output:
 [1, 4, 9, 16, 25]
