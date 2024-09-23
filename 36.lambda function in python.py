@@ -1,4 +1,4 @@
-#sqaure of a number
+#square of a number
 X=lambda a:a*a
 print(X(15))
 print(X(25))
