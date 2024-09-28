@@ -32,7 +32,7 @@ print(li)
 
 #using map function
 l1=[1,2,3,4,5]
-print(list(map(lambda a:a*a,li)))
+print(list(map(lambda a:a*a,l1)))
 
 #Output:
 [1, 4, 9, 16, 25]
